@@ -8,7 +8,9 @@ function TodoWrapper() {
     <div className="wrapper">
       <h1>待辦事項</h1>
       <CreateForm />
-      <Todo />
+      {todos.map((todo)=>{
+        return <Todo/>
+      })}
     </div>
   );
 }
