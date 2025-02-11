@@ -1,6 +1,6 @@
-function Todo() {
+function Todo({todo}) {
   return <div className="todo">
-    <p>洗衣服</p>
+    <p>{todo.content}</p>
   </div>  
 }
 export default Todo
