@@ -57,4 +57,12 @@ input::placeholder {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.completed {
+  opacity: 0.4;
+  text-decoration: line-through 3px black;
+}
+.icon span {
+  margin-right: 5px;
 }

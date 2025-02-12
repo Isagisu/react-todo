@@ -1,5 +1,6 @@
 import { useState } from "react";
-function CreateForm(addTodo) {
+
+function CreateForm({addTodo}) {
   const[content,setContent]= useState('');
   const handleSubmit = (e)=>{
     e.preventDefault();
